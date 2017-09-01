@@ -68,7 +68,12 @@ a:hover { text-decoration: none }
     margin: 0 5px;
 }
 .header-area {
-    padding: 40px 30px;
+  left: 0;
+  padding: 40px 30px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 999;
 }
 .portfolio-1{
   background-image: url(../img/protfolio-1.jpg);
@@ -119,7 +124,10 @@ a:hover { text-decoration: none }
     width: 25%;
 }
 .portfolio-list-27 {
-    overflow: hidden;
+  margin-bottom: 300px;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
 }
 .portfolio-hover-27 {
     background-color: #fff;
@@ -153,4 +161,93 @@ a:hover { text-decoration: none }
 
 .portfolio-hover-27 p {
   text-transform: uppercase;
+}
+
+
+.footer-area-27 {
+    background-color: #613ad6;
+    line-height: 2;
+}
+.footer-area-27, .footer-area-27 a {
+    color: #fff;
+    padding: 80px 0;
+}
+.footer-area-27 a {
+    opacity: 0.8;
+}
+.footer-area-27 h2 a {
+    font-size: 24px;
+    opacity: 1;
+}
+.footer-logo a {
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.footer-logo {
+    display: inline-block;
+    position: relative;
+}
+.footer-logo span {
+    font-size: 10px;
+    position: absolute;
+    right: -14px;
+    top: 6px;
+}
+
+.footer-area-27 ul {
+    list-style: outside none none;
+    margin: 0;
+    padding-left: 75px;
+}
+
+.footer-area-27 {
+  background-color: #613ad6;
+  line-height: 2;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1;}
+}
+.footer-area-27, .footer-area-27 a {
+    color: #fff;
+    padding: 80px 0;
+}
+.footer-area-27 a {
+    opacity: 0.5;
+    font-size: 25px;
+}
+.footer-area-27 h2 a {
+    font-size: 24px;
+    opacity: 1;
+}
+.footer-logo a {
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.footer-logo {
+    display: inline-block;
+    position: relative;
+}
+.footer-logo span {
+    font-size: 10px;
+    position: absolute;
+    right: -14px;
+    top: 6px;
+}
+.footer-area-27 p {
+  opacity: 0.7;
+  font-size: 22px;
+}
+.footer-area-27 ul {
+    list-style: outside none none;
+    margin: 0;
+    padding-left: 75px;
+}
+
+.single-portfolio-item-27.long {
+    height: 600px;
+}
+.single-portfolio-item-27.boxed {
+    height: 600px;
+    width: 50%;
 }
