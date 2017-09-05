@@ -251,3 +251,96 @@ a:hover { text-decoration: none }
     height: 600px;
     width: 50%;
 }
+
+.off-canvus-menu.right-zero{
+  right: 0;
+}
+
+
+.off-canvus-menu-overlay {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  z-index: 3;
+  opacity: 0;
+  visibility: hidden;
+}
+.off-canvus-menu-overlay.overlay-visible{
+  opacity: 0;
+  visibility:visible;
+}
+
+.off-canvus-menu {
+  background: #fff none repeat scroll 0 0;
+  height: 100%;
+  padding-left: 40px;
+  position: fixed;
+  right: -40%;
+  top: 0;
+  transition: all 0.3s ease 0s;
+  width: 40%;
+  z-index: 99999;
+}
+.menu-bottom-section {
+    bottom: 85px;
+    left: 40px;
+    position: absolute;
+}
+.offcanvus-boxed-text p {
+    color: #333;
+    font-weight: 700;
+}
+.offcanvus-boxed-text {
+    background: #ddd none repeat scroll 0 0;
+    max-width: 400px;
+    padding: 5px;
+}
+.social-icons a {
+    color: #333;
+    font-size: 20px;
+    font-weight: 700;
+    opacity: 0.7;
+    padding-right: 10px;
+}
+.social-icons {
+    margin-top: 22px;
+}
+.menu-item-inner ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.menu-item-inner a {
+    color: #333;
+    font-size: 35px;
+    font-weight: 700;
+}
+.menu-item-wrap {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.menu-item-inner {
+    display: table-cell;
+    padding-bottom: 155px;
+    vertical-align: middle;
+}
+
+.menu-close {
+    border-left: 1px solid #ddd;
+    cursor: pointer;
+    height: 100%;
+    margin-top: 0;
+    position: absolute;
+    right: 0;
+    width: 80px;
+}
+.menu-close i.fa {
+    font-size: 30px;
+    left: 32px;
+    line-height: 40px;
+    margin-top: -20px;
+    position: absolute;
+    top: 50%;
+}
