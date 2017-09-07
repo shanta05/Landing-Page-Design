@@ -30,6 +30,9 @@
 		  });
 
 
+		  $(".header-area").headroom();
+
+
         
 
 
