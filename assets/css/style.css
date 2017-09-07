@@ -344,3 +344,8 @@ a:hover { text-decoration: none }
     position: absolute;
     top: 50%;
 }
+
+.header-area.headroom--pinned {
+    position: fixed;
+}
+
